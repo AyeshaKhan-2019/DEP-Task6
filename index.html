@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Quote Generator</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Font-Awesome icon CSS online cdn cloudfare-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Icon Font Stylesheet -->
+    <link  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Google Font Stylesheet -->
+     <link href='https://fonts.googleapis.com/css?family=Akaya Telivigala' rel='stylesheet'>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Local Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <script src="main.js" defer></script>
+
+</head>
+
+<body>
+    <ul class="cb-slideshow">
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+        <li><span></span></li>
+        
+    </ul>
+
+
+    <div class="container">
+        
+        <div id="qbox" class="border border-2 rounded-1 w-50 mx-auto px-5 py-3 bg-white">
+            <h1 class="text-center fw-bold fs-2">Random Quote Generator</h1>
+        <hr>
+            <p class="text-start"><i class="fa fa-quote-left fa-2x mb-1 ms-2" style="color: #FEA116;"></i></p>
+            <p id="qtext" class="text-center fs-3 text-wrap text-break">It's your road and yours alone. Others may walk it with you, but no one can walk it for you.</p>
+            <p class="text-end"><i class="fa fa-quote-right fa-2x mb-2 me-2" style="color: #FEA116;"></i></p>
+                
+            <p id="qauthor" class="text-end fs-5 fst-italic">- Rumi</p>
+            <hr>
+            <button id="qbtn" type="button" class="btn btn-info rounded-pill fw-bold d-grid gap-2 col-md-6 mx-auto fs-6">Get Quote</button>
+        </div>
+        
+    </div>
+        
+    
+</body>
+
+</html>
